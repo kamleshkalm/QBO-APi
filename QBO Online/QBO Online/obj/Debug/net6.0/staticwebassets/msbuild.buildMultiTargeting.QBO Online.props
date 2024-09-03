@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\QBO Online.props" />
+</Project>

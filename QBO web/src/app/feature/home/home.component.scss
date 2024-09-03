@@ -1,0 +1,184 @@
+/* invoice-display.component.css */
+
+.invoice-container {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.invoice-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.header-left p, .header-right {
+  margin: 5px 0;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-view:hover {
+  background-color: #0056b3;
+}
+
+.invoice-details, .invoice-items, .invoice-summary {
+  margin-bottom: 20px;
+}
+
+.billing-info, .shipping-info, .customer-info {
+  margin-bottom: 15px;
+}
+
+.billing-info h2, .shipping-info h2, .customer-info h2 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.invoice-items h2 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.invoice-items table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-items th, .invoice-items td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.invoice-summary h2 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.invoice-summary p {
+  margin: 5px 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin-top: 20px;
+}
+/* Popup container */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Popup content styling */
+.popup-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  transform: translateY(-50px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Show popup */
+.popup.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Close button styling */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #ff0000;
+}
+
+/* Form input styling */
+.popup-content input[type="text"],
+.popup-content input[type="email"],
+.popup-content input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.popup-content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.popup-content button.close {
+  background-color: #dc3545;
+}
+
+.popup-content button.close:hover {
+  background-color: #c82333;
+}
+
+

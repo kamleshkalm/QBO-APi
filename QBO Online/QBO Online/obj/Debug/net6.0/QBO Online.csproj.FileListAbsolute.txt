@@ -1,0 +1,41 @@
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\appsettings.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\QBO Online.exe
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\QBO Online.deps.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\QBO Online.runtimeconfig.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\QBO Online.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\QBO Online.pdb
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.csproj.AssemblyReference.cache
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.AssemblyInfoInputs.cache
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.AssemblyInfo.cs
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.csproj.CoreCompileInputs.cache
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets\msbuild.QBO Online.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets\msbuild.build.QBO Online.props
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.QBO Online.props
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.QBO Online.props
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\scopedcss\bundle\QBO Online.styles.css
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.csproj.CopyComplete
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\refint\QBO Online.dll
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.pdb
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\QBO Online.genruntimeconfig.cache
+C:\Users\Kamlesh\Desktop\QBO App\QBO Online\QBO Online\obj\Debug\net6.0\ref\QBO Online.dll

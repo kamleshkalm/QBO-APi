@@ -1,0 +1,105 @@
+<div><br><br>
+  <br>  <button class="btn-view" (click)="openPopup()">Create Invoice</button>
+</div>
+<div *ngFor="let invoice of invoices" class="invoice-container">
+  <header class="invoice-header">
+    <div class="header-left">
+      <h1>Invoice</h1>
+      <p>Invoice Number: <strong>{{ invoice.DocNumber?.['#text'] }}</strong></p>
+      <p>Date: <strong>{{ invoice.TxnDate?.['#text'] | date :'short'}}</strong></p>
+      <p>Due Date: <strong>{{ invoice.DueDate?.['#text'] | date:'short'}}</strong></p>
+    </div>
+    <div class="header-right">
+      <button class="btn-view" (click)="viewInvoice(invoice.Id?.['#text'])">View PDF</button> <br><br>
+      <button class="btn-view" (click)="downloadInvoice(invoice.Id?.['#text'])">Download PDF</button><br><br>
+    </div>
+  </header>
+
+  <section class="invoice-details">
+    <div class="billing-info">
+      <h2>Bill To</h2>
+      <p>{{ invoice.BillAddr.Line1?.['#text'] }}</p>
+      <p>{{ invoice.BillAddr.Line2?.['#text'] }}</p>
+      <p>{{ invoice.BillAddr.Line3?.['#text'] }}</p>
+      <p>{{ invoice.BillAddr.Line4?.['#text'] }}</p>
+    </div>
+
+    <div *ngIf="invoice.ShipAddr" class="shipping-info">
+      <h2>Ship To</h2>
+      <p>{{ invoice.ShipAddr.Line1?.['#text'] }}</p>
+      <p>{{ invoice.ShipAddr.City?.['#text'] }}, {{ invoice.ShipAddr.CountrySubDivisionCode?.['#text'] }} {{
+        invoice.ShipAddr.PostalCode?.['#text'] }}</p>
+    </div>
+
+    <div class="customer-info">
+      <h2>Customer Information</h2>
+      <p><strong>Customer:</strong> {{ invoice.CustomerRef?.['@attributes'].name }}</p>
+      <p><strong>Customer Memo:</strong> {{ invoice.CustomerMemo?.['#text'] }}</p>
+    </div>
+  </section>
+
+  <section class="invoice-items">
+    <h2>Items</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of invoice.Line">
+          <td>{{ item.Description?.['#text'] }}</td>
+          <td>{{ item.Amount?.['#text'] | currency:invoice.CurrencyRef?.['#text'] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="invoice-summary">
+    <h2>Summary</h2>
+    <!-- <p><strong>Subtotal:</strong> {{ calculateSubtotal(invoice.Line) | currency: invoice.CurrencyRef?.['#text'] }}</p> -->
+    <p><strong>Tax:</strong> {{ invoice.TxnTaxDetail.TotalTax?.['#text'] | currency: 'USD' }}</p>
+    <p><strong>Total:</strong> {{ invoice.TotalAmt?.['#text'] | currency: 'USD' }}</p>
+  </section>
+</div>
+
+<!-- -------------create invoice popup-------------- -->
+<div class="popup" [ngClass]="{'show': showPopup}">
+  <div class="popup-content">
+    <button class="close-btn" (click)="closePopup()">&times;</button>
+    <h2>Create Invoice</h2>
+    <label>
+      Customer Name:
+      <input [(ngModel)]="customerName" type="text" />
+    </label>
+    <br />
+    <label>
+      Customer ID:
+      <input [(ngModel)]="customerId" type="text" />
+    </label>
+    <br />
+    <label>
+      Billing Email:
+      <input [(ngModel)]="billEmail" type="email" />
+    </label>
+    <br />
+    <label>
+      Amount:
+      <input [(ngModel)]="amount" type="number" />
+    </label>
+    <br />
+    <label>
+      Item Reference:
+      <input [(ngModel)]="itemRef_value" type="text"/>
+    </label>
+    <label>
+      Product Name:
+      <input [(ngModel)]="product_name" type="text"/>
+    </label>
+    <br />
+
+    <button (click)="CreateInvoice()">Submit</button>
+    <button class="close" (click)="closePopup()">Close</button>
+  </div>
+</div>
